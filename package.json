@@ -1,0 +1,17 @@
+{
+  "name": "flex-log-test-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fl -p 8000 index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xuejie-yu/flex-log": "1.0.3",
+    "bunyan": "1.8.15",
+    "express": "4.17.1"
+  }
+}
